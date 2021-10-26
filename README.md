@@ -11,3 +11,12 @@ git filter-branch --index-filter "git rm -rf --cached --ignore-unmatch part2.env
 git push origin --force
 ```
 
+### third Part
+we need to create a new branch with `git branch NAME`
+
+### fourth part
+choose a commit and merge it with below command.
+
+```
+git cherry-pick beea429
+```
